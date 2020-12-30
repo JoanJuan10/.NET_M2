@@ -13,12 +13,21 @@ namespace EjercicioM2
             nom.Add('A');
             nom.Add('N');
 
+            Dictionary<char, int> nomD = new Dictionary<char, int>();
 
-            foreach (char letra in nom)
+            nomD.Add('J', 0);
+            nomD.Add('O', 0);
+            nomD.Add('A', 0);
+            nomD.Add('N', 0);
+
+
+            foreach (var letra in nom)
             {
+                
                 if (letra == 'A' || letra == 'E' || letra == 'I' || letra == 'O' || letra == 'U')
                 {
                     Console.WriteLine("VOCAL");
+                    nomD[letra]++;
                 }
                 else if (Char.IsDigit(letra))
                 {
@@ -27,6 +36,7 @@ namespace EjercicioM2
                 else
                 {
                     Console.WriteLine("CONSONANT");
+                    nomD[letra]++;
                 }
                 
 
