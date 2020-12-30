@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading;
 
 namespace EjercicioM2
 {
@@ -7,7 +8,7 @@ namespace EjercicioM2
     {
         static void Main(string[] args)
         {
-            Milestone2();
+            Milestone3();
         }
         static void Milestone1 ()
         {
@@ -93,6 +94,60 @@ namespace EjercicioM2
                 for (int j = 0; j < numEspacios; j++)
                 {
                     piramideNums += " ";
+                }
+            }
+        }
+        static void Milestone3()
+        {
+            int seconds = 0;
+            int minutes = 0;
+            int hours = 0;
+
+            while (true)
+            {
+                Console.Clear();
+
+                if (hours < 10)
+                {
+                    Console.Write("0{0}",hours);
+                }
+                else
+                {
+                    Console.Write("{0}", hours);
+                }
+                Console.Write(":");
+                if (minutes < 10)
+                {
+                    Console.Write("0{0}", minutes);
+                }
+                else
+                {
+                    Console.Write("{0}", minutes);
+                }
+                Console.Write(":");
+                if (seconds < 10)
+                {
+                    Console.Write("0{0}", seconds);
+                }
+                else
+                {
+                    Console.Write("{0}", seconds);
+                }
+                Thread.Sleep(1000);
+                seconds++;
+                if (seconds >= 60)
+                {
+                    seconds = 0;
+                    minutes++;
+                    if (minutes >= 60)
+                    {
+                        minutes = 0;
+                        hours++;
+                        if (hours >= 24)
+                        {
+                            hours = 0;
+                        }
+                    }
                 }
             }
         }
