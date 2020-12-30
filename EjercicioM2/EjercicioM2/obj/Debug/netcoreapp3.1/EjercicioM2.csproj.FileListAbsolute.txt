@@ -1,0 +1,13 @@
+C:\Users\Joan\source\repos\JoanJuan10\.NET_M2\EjercicioM2\EjercicioM2\bin\Debug\netcoreapp3.1\EjercicioM2.exe
+C:\Users\Joan\source\repos\JoanJuan10\.NET_M2\EjercicioM2\EjercicioM2\bin\Debug\netcoreapp3.1\EjercicioM2.deps.json
+C:\Users\Joan\source\repos\JoanJuan10\.NET_M2\EjercicioM2\EjercicioM2\bin\Debug\netcoreapp3.1\EjercicioM2.runtimeconfig.json
+C:\Users\Joan\source\repos\JoanJuan10\.NET_M2\EjercicioM2\EjercicioM2\bin\Debug\netcoreapp3.1\EjercicioM2.runtimeconfig.dev.json
+C:\Users\Joan\source\repos\JoanJuan10\.NET_M2\EjercicioM2\EjercicioM2\bin\Debug\netcoreapp3.1\EjercicioM2.dll
+C:\Users\Joan\source\repos\JoanJuan10\.NET_M2\EjercicioM2\EjercicioM2\bin\Debug\netcoreapp3.1\EjercicioM2.pdb
+C:\Users\Joan\source\repos\JoanJuan10\.NET_M2\EjercicioM2\EjercicioM2\obj\Debug\netcoreapp3.1\EjercicioM2.csprojAssemblyReference.cache
+C:\Users\Joan\source\repos\JoanJuan10\.NET_M2\EjercicioM2\EjercicioM2\obj\Debug\netcoreapp3.1\EjercicioM2.AssemblyInfoInputs.cache
+C:\Users\Joan\source\repos\JoanJuan10\.NET_M2\EjercicioM2\EjercicioM2\obj\Debug\netcoreapp3.1\EjercicioM2.AssemblyInfo.cs
+C:\Users\Joan\source\repos\JoanJuan10\.NET_M2\EjercicioM2\EjercicioM2\obj\Debug\netcoreapp3.1\EjercicioM2.csproj.CoreCompileInputs.cache
+C:\Users\Joan\source\repos\JoanJuan10\.NET_M2\EjercicioM2\EjercicioM2\obj\Debug\netcoreapp3.1\EjercicioM2.dll
+C:\Users\Joan\source\repos\JoanJuan10\.NET_M2\EjercicioM2\EjercicioM2\obj\Debug\netcoreapp3.1\EjercicioM2.pdb
+C:\Users\Joan\source\repos\JoanJuan10\.NET_M2\EjercicioM2\EjercicioM2\obj\Debug\netcoreapp3.1\EjercicioM2.genruntimeconfig.cache
