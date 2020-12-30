@@ -38,9 +38,27 @@ namespace EjercicioM2
                     Console.WriteLine("CONSONANT");
                     nomD[letra]++;
                 }
-                
-
             }
+            List<char> cognom = new List<char>();
+            cognom.Add('B');
+            cognom.Add('A');
+            cognom.Add('Z');
+            cognom.Add('A');
+
+            List<char> fullName = new List<char>();
+
+
+            foreach (var letra in nom)
+            {
+                fullName.Add(letra);
+            }
+            fullName.Add(' ');
+            foreach (var letra in cognom)
+            {
+                fullName.Add(letra);
+            }
+
+
         }
     }
 }
