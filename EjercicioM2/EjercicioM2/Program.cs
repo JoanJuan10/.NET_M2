@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace EjercicioM2
 {
@@ -6,11 +7,29 @@ namespace EjercicioM2
     {
         static void Main(string[] args)
         {
-            char[] nom = { 'J', 'O', 'A', 'N' };
+            List<char> nom = new List<char>();
+            nom.Add('J');
+            nom.Add('O');
+            nom.Add('A');
+            nom.Add('N');
 
-            for (int i = 0; i < nom.Length; i++)
+
+            foreach (char letra in nom)
             {
-                Console.Write(nom[i]);
+                if (letra == 'A' || letra == 'E' || letra == 'I' || letra == 'O' || letra == 'U')
+                {
+                    Console.WriteLine("VOCAL");
+                }
+                else if (Char.IsDigit(letra))
+                {
+                    Console.WriteLine("Els noms no contenen numeros!");
+                }
+                else
+                {
+                    Console.WriteLine("CONSONANT");
+                }
+                
+
             }
         }
     }
